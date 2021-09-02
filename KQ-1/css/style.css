@@ -70,7 +70,9 @@
     font-family: 'Bodoni Moda', serif;
   }
 }
-
+  .h1-span {
+    font-family: 'Dancing Script', cursive; /*Cambio a letra cursiva traida de google fonts */
+  }
  
 
 
