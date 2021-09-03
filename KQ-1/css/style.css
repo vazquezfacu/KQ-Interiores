@@ -42,7 +42,7 @@
 
 @media screen and (min-width:900px) {
   .portada-copy h1 {
-    color: white;
+    color: #f5f2ef;
     font-size: 70px;
     font-family: 'Bodoni Moda', serif;
     background: rgb(195,179,160);
@@ -58,13 +58,17 @@
 
 @media screen and (max-width: 900px) {
   .portada-copy {
-    color: #fff;
+    color: #f5f2ef;
     text-align: center;
     top: 150px;
     left: 8px;
     /* background-image: url('../images/Diseño/ESTAMPA2.png'); */
   }
 
+ /*
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+*/
   .portada-copy h1 {
     color: white;
     font-size: 3em;
@@ -7405,6 +7409,8 @@ h1, h2, h3, h4, h5,
     padding-right: 20px;
     color: #fff;
     font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
       color: #fff; }
