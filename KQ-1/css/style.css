@@ -11988,6 +11988,8 @@ textarea.form-control {
   border-radius: 50%;
   position: relative;
   margin-top: -75px;
+
+  display: none;
 }
 
 .testimony-wrap .user-img .quote {
