@@ -8,6 +8,10 @@
   width: 100%;
 }
 
+
+html {
+  overflow-x: hidden;
+}
 /* .portada-inner {
   position: absolute;
   top: 0;
@@ -10567,7 +10571,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 14px;
   background: #b59e78;
-  padding: 6em 0;
+  padding: 3em 0;
 }
 .ftco-footer .ftco-footer-logo {
   text-transform: uppercase;
