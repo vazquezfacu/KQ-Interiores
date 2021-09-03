@@ -43,12 +43,11 @@
 @media screen and (min-width:900px) {
   .portada-copy h1 {
     color: #f5f2ef;
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Bodoni Moda', serif;
-    background: rgb(195,179,160);
-    background: radial-gradient(circle, rgba(195,179,160,1) 18%, rgba(195,179,160,0.8491771708683473) 29%, rgba(195,179,160,0) 64%);
-          }
-  .portada-copy {
+    background: rgb(95,81,74);
+    background: radial-gradient(circle, rgba(95,81,74,1) 25%, rgba(95,81,74,0.6923144257703081) 80%, rgba(195,179,160,0) 100%); }
+          .portada-copy {
     top: 270px;
     left: 34px;
     /* background-image: url('../images/Diseño/ESTAMPA2.png'); */
@@ -73,11 +72,17 @@
     color: white;
     font-size: 3em;
     font-family: 'Bodoni Moda', serif;
-    background: rgb(195,179,160);
-background: radial-gradient(circle, rgba(195,179,160,1) 18%, rgba(195,179,160,0.8491771708683473) 29%, rgba(195,179,160,0) 64%);
-    
+    background: rgb(95,81,74);
+    background: radial-gradient(circle, rgba(95,81,74,1) 25%, rgba(95,81,74,0.6923144257703081) 80%, rgba(195,179,160,0) 100%); }
   }
-}
+  @media screen and (max-width: 550px) {
+      .portada-copy{
+
+      }
+      .portada-copy h1{
+        font-size: 25px;
+      }
+  }
   .h1-span {
     font-family: 'Dancing Script', cursive; /*Cambio a letra cursiva traida de google fonts */
   }
@@ -665,7 +670,6 @@ pre {
   -ms-flex: 0 0 83.33333%;
   flex: 0 0 83.33333%;
   max-width: 83.33333%; }
-
 .col-11 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 91.66667%;
@@ -7382,7 +7386,8 @@ h1, h2, h3, h4, h5,
   color: #ffcdcd !important; }
 
 .ftco-navbar-light {
-  background: #000000 !important;
+  background-image: url('../images/Diseño/sadasda.png');
+  background-size: 870px;
   position: absolute;
   top: 0px;
   left: 0;
@@ -7390,8 +7395,9 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
-      position: relative;
+      background-image: url('../images/Diseño/sadasda.png');
+      background-size: 870px;
+          position: relative;
       top: 0; } }
   .ftco-navbar-light .navbar-brand {
     color: #fff; }
