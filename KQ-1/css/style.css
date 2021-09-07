@@ -757,12 +757,14 @@ html {
 }  */
 
 .portada-copy {
+  display: flex;
+  width: 100%;
+  justify-content: center;
   color: #fff;
   min-width: 90%;
   text-align: center;
   position: absolute;
-  top: 40%;
-  font-family: 'Bodoni Moda', serif;
+  top: 20%;
   /* background-image: url('../images/Diseño/ESTAMPA2.png'); */
   background-size: cover;
   background-repeat: no-repeat;
@@ -771,12 +773,14 @@ html {
 }
 
 @media screen and (min-width: 900px) {
+  .portada-copy{
+    background: rgb(95,81,74);
+    background: radial-gradient(circle, rgba(95,81,74,1) 38%, rgba(34,15,5,0.6923144257703081) 53%, rgba(195,179,160,0) 80%);  /* background-image: url('../images/Diseño/ESTAMPA2.png'); */  
+  }
   .portada-copy h1 {
     color: #f5f2ef;
-    font-size: 64px;
-    font-family: 'Bodoni Moda', serif;
-    background: rgb(95, 81, 74);
-    background: radial-gradient(circle, rgba(95, 81, 74, 1) 0%, rgba(95, 81, 74, 0.6923144257703081) 10%, rgba(195, 179, 160, 0) 26%);
+    font-size: 90px;
+    font-family: 'Dancing Script', cursive;
   }
 }
 
@@ -786,6 +790,8 @@ html {
     text-align: center;
     top: 150px;
     left: 8px;
+    background: rgb(95,81,74);
+    background: radial-gradient(circle, rgba(95,81,74,1) 38%, rgba(34,15,5,0.6923144257703081) 53%, rgba(195,179,160,0) 80%);  /* background-image: url('../images/Diseño/ESTAMPA2.png'); */ 
     /* background-image: url('../images/Diseño/ESTAMPA2.png'); */
   }
 
@@ -796,9 +802,7 @@ html {
   .portada-copy h1 {
     color: white;
     font-size: 3em;
-    font-family: 'Bodoni Moda', serif;
-    background: rgb(95, 81, 74);
-    background: radial-gradient(circle, rgba(95, 81, 74, 1) 25%, rgba(95, 81, 74, 0.6923144257703081) 80%, rgba(195, 179, 160, 0) 100%);
+    font-family: 'Dancing Script', cursive;
   }
 }
 
@@ -811,13 +815,7 @@ html {
 }
 
 .h1-span {
-  font-family: 'Dancing Script', cursive;
-  /*Cambio a letra cursiva traida de google fonts */
-}
-
-
-.h1-span {
-  font-family: "Dancing Script", cursive;
+  font-family: 'Bodoni Moda', serif;
   /*Cambio a letra cursiva traida de google fonts */
   font-size: 6rem;
 }
