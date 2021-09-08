@@ -11343,8 +11343,8 @@ h5,
 }
 
 .ftco-navbar-light {
-  background-image: url('../images/Diseño/ESTAMPA2.png');
-  background-size: 100%;
+  background-image: url('../images/Diseño/fondo-menu.png');
+  background-size: contain;
   background-position: 50% 20%;
   position: absolute;
   top: 0px;
