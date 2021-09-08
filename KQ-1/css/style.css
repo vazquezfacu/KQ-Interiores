@@ -771,7 +771,15 @@ html {
   background-attachment: fixed;
   /* background-color: rgba(255, 0, 0, 0.6); */
 }
-
+#logo-nav{
+  right: 80px;
+}
+.navbar-nav{
+  background-color: var(--brown);
+}
+#ftco-nav ul li a{
+    font-size: 200%;
+}
 @media screen and (min-width: 900px) {
   .portada-copy{
     background: rgb(95,81,74);
@@ -11338,8 +11346,9 @@ h5,
 }
 
 .ftco-navbar-light {
-  background-image: url('../images/Diseño/sadasda.png');
-  background-size: 870px;
+  background-image: url('../images/Diseño/ESTAMPA2.png');
+  background-size: 100%;
+  background-position: 50% 20%;
   position: absolute;
   top: 0px;
   left: 0;
