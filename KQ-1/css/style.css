@@ -777,9 +777,6 @@ html {
 .navbar-nav{
   background-color: var(--brown);
 }
-#ftco-nav ul li a{
-    font-size: 200%;
-}
 @media screen and (min-width: 900px) {
   .portada-copy{
     background: rgb(95,81,74);
@@ -11540,7 +11537,6 @@ h5,
 .ftco-navbar-light.scrolled .nav-link {
   padding-top: 0.9rem !important;
   padding-bottom: 0.9rem !important;
-  color: #000000 !important;
 }
 
 .ftco-navbar-light.scrolled .nav-link.active {
@@ -13403,4 +13399,8 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+#nav ul li a{
+  font-size: 200%;
+  color: white;
 }
