@@ -764,7 +764,7 @@ html {
   min-width: 90%;
   text-align: center;
   position: absolute;
-  top: 20%;
+  top: 33.3%;
   /* background-image: url('../images/Diseño/ESTAMPA2.png'); */
   background-size: cover;
   background-repeat: no-repeat;
@@ -834,7 +834,9 @@ html {
 }
 
 .color-title {
-  color: var(--brown) !important;
+  /* color: var(--brown) !important; */
+  color: rgb(117 102 93) !important;
+  
 }
 
 :root {
@@ -5846,8 +5848,9 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 18px
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: #fff;
+  font-size: 22px
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -11364,6 +11367,11 @@ h5,
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
   color: #fff;
 }
+.navbar-collapse .navbar-nav li:hover{
+  transform: scale(1.05);
+}
+
+
 
 .ftco-navbar-light .navbar-nav>.nav-item .dropdown-menu {
   border: none;
@@ -12615,7 +12623,9 @@ textarea.form-control {
   width: 100%;
   height: 1px;
   content: "";
-  background: var(--brown) !important;
+  /* background: var(--brown) !important; */
+  background: rgb(117 102 93) !important;
+  
 }
 
 .heading-section.heading-section-white .subheading {
@@ -12651,6 +12661,7 @@ textarea.form-control {
 .testimony-section {
   position: relative;
   background-color: #eae9e5;
+  padding-bottom: 8rem;
 }
 
 .testimony-section .owl-carousel {
