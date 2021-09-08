@@ -12666,7 +12666,7 @@ textarea.form-control {
 .testimony-section {
   position: relative;
   background-color: #eae9e5;
-  padding-bottom: 8rem;
+  padding: 15rem 0 !important;
 }
 
 .testimony-section .owl-carousel {
