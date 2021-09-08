@@ -774,9 +774,9 @@ html {
 #logo-nav{
   right: 80px;
 }
-.navbar-nav{
+/* .navbar-nav{
   background-color: var(--brown);
-}
+} */
 @media screen and (min-width: 900px) {
   .portada-copy{
     background: rgb(95,81,74);
