@@ -780,7 +780,7 @@ html {
 @media screen and (min-width: 900px) {
   .portada-copy{
     background: rgb(95,81,74);
-    background: radial-gradient(circle, rgba(95,81,74,1) 38%, rgba(34,15,5,0.6923144257703081) 53%, rgba(195,179,160,0) 80%);  /* background-image: url('../images/Diseño/ESTAMPA2.png'); */  
+    background: radial-gradient(circle, rgba(95, 81, 74, 1) 0%, rgba(95, 81, 74, 0.6923144257703081) 10%, rgba(195, 179, 160, 0) 26%); /* background-image: url('../images/Diseño/ESTAMPA2.png'); */  
   }
   .portada-copy h1 {
     color: #f5f2ef;
@@ -12629,7 +12629,7 @@ textarea.form-control {
   height: 1px;
   content: "";
   /* background: var(--brown) !important; */
-  background: rgb(117 102 93) !important;
+  background: #6B5C55 !important;
   
 }
 
